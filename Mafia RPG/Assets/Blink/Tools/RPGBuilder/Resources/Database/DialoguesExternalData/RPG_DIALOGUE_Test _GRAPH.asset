@@ -1,0 +1,765 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9015613588854885525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 552, y: 232}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -9015613588854885525}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 6476117254339030113}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -9015613588854885525}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 4026640895626890768}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: Wasssuppp
+  hasGameActions: 0
+  GameActionsList: []
+  hasRequirements: 0
+  RequirementList: []
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  editorInitialized: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-6876938781576038743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -472, y: -72}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -6876938781576038743}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -6876938781576038743}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 5974902514174639669}
+        reroutePoints: []
+      - fieldName: previousNode
+        node: {fileID: 6329098210399867386}
+        reroutePoints: []
+      - fieldName: previousNode
+        node: {fileID: 6476117254339030113}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: Hey there, [player_name]!
+  hasGameActions: 0
+  GameActionsList: []
+  hasRequirements: 0
+  RequirementList: []
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  editorInitialized: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &-2162799352326159157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 552, y: 40}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: -2162799352326159157}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 6329098210399867386}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: -2162799352326159157}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 4026640895626890768}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: Guess I'll get right to it then...
+  hasGameActions: 0
+  GameActionsList: []
+  hasRequirements: 0
+  RequirementList: []
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  editorInitialized: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b94581986ec14c489cf702c2fae6f9f, type: 3}
+  m_Name: RPG_DIALOGUE_Test _GRAPH
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6876938781576038743}
+  - {fileID: 5974902514174639669}
+  - {fileID: 6329098210399867386}
+  - {fileID: 6476117254339030113}
+  - {fileID: -9015613588854885525}
+  - {fileID: 6093192040595436849}
+  - {fileID: -2162799352326159157}
+  - {fileID: 8603021520675551924}
+  - {fileID: 7289813349965131574}
+  - {fileID: 2581911955392942613}
+  - {fileID: 3431012571465632751}
+  - {fileID: 4026640895626890768}
+--- !u!114 &2581911955392942613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1464, y: -8}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 2581911955392942613}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 6093192040595436849}
+        reroutePoints: []
+      - fieldName: nextNodes
+        node: {fileID: 8603021520675551924}
+        reroutePoints: []
+      - fieldName: nextNodes
+        node: {fileID: 7289813349965131574}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 2581911955392942613}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: Thanks for the info, but they're not worth it.
+  hasGameActions: 1
+  GameActionsList: []
+  hasRequirements: 0
+  RequirementList: []
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  editorInitialized: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &3431012571465632751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1503.138, y: 187.36812}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 3431012571465632751}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 8603021520675551924}
+        reroutePoints: []
+      - fieldName: nextNodes
+        node: {fileID: 7289813349965131574}
+        reroutePoints: []
+      - fieldName: nextNodes
+        node: {fileID: 6093192040595436849}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 3431012571465632751}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: Those sunsabitches!
+  hasGameActions: 0
+  GameActionsList: []
+  hasRequirements: 0
+  RequirementList: []
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  editorInitialized: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &4026640895626890768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 984, y: 152}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 4026640895626890768}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -2162799352326159157}
+        reroutePoints: []
+      - fieldName: nextNodes
+        node: {fileID: -9015613588854885525}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 4026640895626890768}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 8603021520675551924}
+        reroutePoints: []
+      - fieldName: previousNode
+        node: {fileID: 7289813349965131574}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: '[...]'
+  hasGameActions: 0
+  GameActionsList: []
+  hasRequirements: 0
+  RequirementList: []
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  editorInitialized: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &5974902514174639669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -40, y: -168}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 5974902514174639669}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -6876938781576038743}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 5974902514174639669}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 6093192040595436849}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: Hey, how's it going?
+  hasGameActions: 0
+  GameActionsList: []
+  hasRequirements: 0
+  RequirementList: []
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  editorInitialized: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &6093192040595436849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 566.82404, y: -123.8757}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 6093192040595436849}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 5974902514174639669}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 6093192040595436849}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 2581911955392942613}
+        reroutePoints: []
+      - fieldName: previousNode
+        node: {fileID: 3431012571465632751}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: 'Good good, hey listen: there are a few guys that were talking smack about
+    you behind the alley. If I were you, I''d want to know about it, so do what you
+    will with that info.'
+  hasGameActions: 0
+  GameActionsList: []
+  hasRequirements: 0
+  RequirementList: []
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  editorInitialized: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &6329098210399867386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -40, y: 24}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 6329098210399867386}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -6876938781576038743}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 6329098210399867386}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -2162799352326159157}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: What do you want?
+  hasGameActions: 0
+  GameActionsList: []
+  hasRequirements: 0
+  RequirementList: []
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  editorInitialized: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &6476117254339030113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -40, y: 216}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 6476117254339030113}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: -6876938781576038743}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 6476117254339030113}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: -9015613588854885525}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 1
+  nodeName: 
+  message: Wassup
+  hasGameActions: 0
+  GameActionsList: []
+  hasRequirements: 0
+  RequirementList: []
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  editorInitialized: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &7289813349965131574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1048, y: 392}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 7289813349965131574}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 4026640895626890768}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 7289813349965131574}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 2581911955392942613}
+        reroutePoints: []
+      - fieldName: previousNode
+        node: {fileID: 3431012571465632751}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: Anyway, there are a few guys that were talking smack about you behind
+    the alley. If I were you, I'd want to know about it, so do what you will with
+    that info.
+  hasGameActions: 0
+  GameActionsList: []
+  hasRequirements: 0
+  RequirementList: []
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  editorInitialized: 0
+  nodeImage: {fileID: 0}
+--- !u!114 &8603021520675551924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3482daf33a41b424789a150bca26817d, type: 3}
+  m_Name: RPG Dialogue Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1032, y: -8}
+  ports:
+    keys:
+    - previousNode
+    - nextNodes
+    values:
+    - _fieldName: previousNode
+      _node: {fileID: 8603021520675551924}
+      _typeQualifiedName: RPGDialogueTextNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: nextNodes
+        node: {fileID: 4026640895626890768}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: nextNodes
+      _node: {fileID: 8603021520675551924}
+      _typeQualifiedName: RPGDialogueBaseNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: previousNode
+        node: {fileID: 2581911955392942613}
+        reroutePoints: []
+      - fieldName: previousNode
+        node: {fileID: 3431012571465632751}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  previousNode: {fileID: 0}
+  nextNodes: {fileID: 0}
+  identityType: 0
+  nodeName: 
+  message: Well there are a few guys that were talking smack about you behind the
+    alley. If I were you, I'd want to know about it, so do what you will with that
+    info.
+  hasGameActions: 0
+  GameActionsList: []
+  hasRequirements: 0
+  RequirementList: []
+  showSettings: 0
+  viewedEndless: 1
+  clickedEndless: 1
+  viewCountMax: 0
+  clickCountMax: 0
+  editorInitialized: 0
+  nodeImage: {fileID: 0}
