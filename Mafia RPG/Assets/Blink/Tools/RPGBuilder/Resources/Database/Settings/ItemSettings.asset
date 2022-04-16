@@ -73,22 +73,16 @@ MonoBehaviour:
   - weaponType1: GREATAXE
     weaponType2: 
     requireWeapon2: 0
-    restAnimatorOverride: {fileID: 22100000, guid: edb474817a7ad7f48bc68aeec4eb0eba,
-      type: 2}
-    combatAnimatorOverride: {fileID: 22100000, guid: 623e7a958241861428113b7fa4ed9cd8,
-      type: 2}
+    restAnimatorOverride: {fileID: 22100000, guid: d065f9ce672c44a45a57c6d24d4b9f25, type: 2}
+    combatAnimatorOverride: {fileID: 22100000, guid: 01d878c2af78e844d9782912f47f825b, type: 2}
   - weaponType1: BOW
     weaponType2: 
     requireWeapon2: 0
-    restAnimatorOverride: {fileID: 22100000, guid: f631ca13f687e1a419f8f1b8d4b75a37,
-      type: 2}
-    combatAnimatorOverride: {fileID: 22100000, guid: e8fb36a14ff423747a85235465af1e14,
-      type: 2}
+    restAnimatorOverride: {fileID: 22100000, guid: d065f9ce672c44a45a57c6d24d4b9f25, type: 2}
+    combatAnimatorOverride: {fileID: 22100000, guid: 01d878c2af78e844d9782912f47f825b, type: 2}
   - weaponType1: STAFF
     weaponType2: 
     requireWeapon2: 0
-    restAnimatorOverride: {fileID: 22100000, guid: 32b87ce87ea9e3a42beb252908517b14,
-      type: 2}
-    combatAnimatorOverride: {fileID: 22100000, guid: 5f467c9ff0680b4479ef91c226675846,
-      type: 2}
+    restAnimatorOverride: {fileID: 22100000, guid: d065f9ce672c44a45a57c6d24d4b9f25, type: 2}
+    combatAnimatorOverride: {fileID: 22100000, guid: 01d878c2af78e844d9782912f47f825b, type: 2}
   InventorySlots: 50

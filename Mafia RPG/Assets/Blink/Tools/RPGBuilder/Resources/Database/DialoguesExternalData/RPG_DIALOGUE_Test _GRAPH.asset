@@ -569,7 +569,7 @@ MonoBehaviour:
   GameActionsList: []
   hasRequirements: 0
   RequirementList: []
-  showSettings: 0
+  showSettings: 1
   viewedEndless: 1
   clickedEndless: 1
   viewCountMax: 0
